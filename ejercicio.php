@@ -50,5 +50,11 @@ else {
 	echo "false";
 }
 
+/*Ejercicio 8
+*/
 
-$numero
+$numero = 9;
+
+$res = (($numero % 2) == 0) ? "el numero es par" : "el numero es impar";
+
+echo $res;
